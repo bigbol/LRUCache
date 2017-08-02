@@ -18,3 +18,5 @@ before_script:
 
 script:
   gocov test ./... -v | gocov report
+notifications:
+  slack: newborntown:jjTgtt58oQg0cUdCTiTfX5Bs
